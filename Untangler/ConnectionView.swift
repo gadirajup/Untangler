@@ -15,6 +15,8 @@ class ConnectionView: UIView {
     
     var touchStartPos = CGPoint.zero
     
+    var after: ConnectionView!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
